@@ -1,0 +1,52 @@
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+@media screen and (max-width: 576px) {
+  #color-picker {
+    width: 20px;
+    height: 15px;
+  }
+  #range {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #color-picker {
+    width: 20px;
+    height: 15px;
+  }
+  #range {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #color-picker {
+    width: 25px;
+    height: 20px;
+  }
+  #range {
+    width: 150px;
+  }
+}
+.container {
+  max-height: 95vh;
+}
+.range {
+  position: relative;
+}
+.rangevalue {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -20px;
+  right: 50%;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  line-height: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.hide {
+  visibility: hidden;
+}
